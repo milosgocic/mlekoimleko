@@ -1,0 +1,512 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Comfortaa-Regular";
+}
+
+@font-face {
+    font-family: "Comfortaa-Regular";
+    src: url(../assets/fonts/comforta/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Beograd';
+
+    src: url(../assets/fonts/beograd/Unnamed-Regular.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.arrow {
+    background-color: #329044;
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    opacity: 0.5;
+}
+
+.arrow:hover {
+    opacity: 1;
+    transition: all .3s;
+}
+
+/*** header ***/
+
+.desktop-hide {
+    display: none;
+}
+
+.background-div {
+    background-color: #2F7F97;
+    position: relative;
+    /* padding-bottom: 150px; */
+}
+
+header {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.goat-cow {
+    width: 150px;
+} 
+
+.logo {
+    width: 400px;
+} 
+
+.align-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 38px;
+    font-family: Beograd;
+}
+
+ul li {
+    list-style: none;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Beograd';
+}
+
+ul a:hover {
+    text-decoration: none;
+}
+
+.list-img {
+    width: 30%;
+    padding-right: 20px;
+}
+
+.bottle {
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: 'Beograd';
+}
+
+.fresh-milk {
+    position: relative;
+}
+
+.milk-circle {
+    position: absolute;
+    top: 0;
+    right: -10%;
+    width: 30%;
+}
+
+.bottle-weight {
+    margin-top: 100px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.bottle:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    left: -60%;
+    background: #fff;
+  }
+
+.milk-drop {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 15%;
+}
+
+.mountain {
+    margin-bottom: -5%;
+}
+
+/*** about us ***/
+
+.about-us {
+    border-bottom: 80px solid #3C3C4B;
+}
+
+.about {
+    font-size: 48px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    color: #3C3C4B;
+    font-family: 'Beograd';
+}
+
+.about-text {
+    text-align: left;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    padding-left: 70px;
+}
+
+.about-us-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*** milk section ***/
+
+.milk {
+    background-color: #2F7F97;
+    color: #fff;
+    position: relative;
+    padding: 100px 0;
+}
+
+.milk-taste {
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    padding-bottom: 80px;
+    font-family: 'Beograd';
+}
+
+.milk-taste-txt {
+    text-align: left;
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.first-milk-drop {
+    position: absolute;
+    top: -7%;
+    right: 0;
+    width: 30%;
+}
+
+.second-milk-drop {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 40%;
+}
+
+.goat-section {
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+.align-bottles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .bottles {
+    max-width: fit-content;
+} */
+
+.goat {
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 60px;
+    font-family: 'Beograd';
+}
+
+.cow {
+    text-align: right;
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 60px;
+    font-family: 'Beograd';
+}
+
+.third-milk-drop {
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+    width: 40%;
+}
+
+.circle-milk {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    width: 15%;
+}
+
+/*** icons ***/
+
+.icons {
+    /* max-height: 568px; */
+    background-color: #3C3C4B;
+    color: #fff;
+    padding: 100px 0;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 32px;
+    padding-top: 50px;
+    font-family: 'Beograd';
+}
+
+.icon-align {
+    text-align: center;
+}
+
+/*** milk road ***/
+
+.milk-road {
+    background-color: #2F7F97;
+    padding-bottom: 250px;
+}
+
+.road-milk-img {
+    padding: 50px 0;
+}
+
+.main-road {
+    font-size: 64px;
+    padding: 150px 0;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Beograd';
+}
+
+.road-img-left {
+    text-align: start;
+    flex: none;
+}
+
+.road-img-right {
+    text-align: end;
+}
+
+.road-text-center {
+    align-self: center;
+}
+
+.road-text-center h6 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Beograd';
+}
+
+.flexy-road {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-road {
+    text-align: center;
+}
+
+.road-text-center p {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.road-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+}
+
+.milk-ns {
+    color: #3C3C4B;
+}
+
+.milk-ns:hover {
+    transition: 0.3s;
+} 
+
+/*** milk machine ***/
+
+.milk-machine {
+    /* background-color: #fff; */
+    /* background-image: url('../assets/img/mountain_PNG18\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    position: relative;
+}
+
+.mountain-machine {
+    margin-top: -22%;
+}
+
+.steel-cows {
+    text-align: center;
+    font-size: 64px;
+    padding-bottom: 120px;
+    font-family: 'Beograd';
+}
+
+.steel-cows-txt {
+    padding: 0 30px 150px 0;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.machine-drop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+/*** footer ***/
+
+footer {
+    background-color: #3C3C4B;
+    /* padding-bottom: 150px; */
+}
+
+.footer-text {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.footer-text p {
+    color: #fff;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family: 'Beograd';
+}
+
+.map-text {
+    text-transform: uppercase;
+    color: #fff;
+    padding: 20px 0 0 0;
+    font-size: 40px;
+    font-family: 'Beograd';
+}
+
+span {
+    text-align: center;
+    color: #fff;
+}
+
+.map-center {
+    text-align: center;
+}
+
+.location {
+    width: 80%;
+    border-radius: 50px;
+    height: 70%;
+}
+
+.locations {
+    padding-bottom: 100px;
+}
+
+.bottom {
+    background-image: url('../assets/img/mountain_PNG18\ 2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 310px 0 10px 0;
+}
+
+.bottom-flex-soc {
+    display: flex;
+    align-items: center;
+}
+
+.bottom-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.bottom-flex p {
+    font-size: 15px;
+}
+
+.footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-icon {
+    padding: 0 10px 0 0;
+    width: 15%;
+}
+
+.mail-footer {
+    font-size: 24px;
+}
+
+.find-us {
+    font-size: 24px;
+}
+
+.soc-icons {
+    width: 10%;
+    margin-right: 20px;
+}
+
+.footer-logo {
+    padding-bottom: 50px;
+}
+
+.developer {
+    color: #2F7F97;
+    font-size: 12px;
+}
+
+.footer-bottom-mob {
+    display: none;
+}
